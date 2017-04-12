@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RssReader</string>
+    <string name="hint_subscription_name">Название подписки</string>
+    <string name="hint_subscription_url">URL</string>
+    <string name="btn_add">Добавить</string>
+    <string name="btn_cancel">Отменить</string>
+    <string name="err_subscription_is_empty">Название подписки не должно быть пустым</string>
+    <string name="err_subscription_url_is_empty">URL не должно быть пустым</string>
+    <string name="err_delete_subscription">Не удалось удалить подписку</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginBottom="@dimen/post_detail_vertical_margin">
+
+    <TextView
+        android:id="@+id/tv_post_title"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/post_title_margin_bottom"
+        android:layout_marginLeft="@dimen/post_detail_horizontal_margin"
+        android:layout_marginRight="@dimen/post_detail_horizontal_margin"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorDivider"
+        android:layout_marginTop="@dimen/small_margin"
+        android:layout_marginBottom="@dimen/small_margin"/>
+
+    <TextView
+        android:id="@+id/tv_post_description"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/post_detail_horizontal_margin"
+        android:layout_marginRight="@dimen/post_detail_horizontal_margin"/>
+
+</LinearLayout>
